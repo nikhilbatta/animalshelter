@@ -1,0 +1,68 @@
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width:400px;
+}
+li a {
+  display:block;
+  background-color: #ad80d4;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/* div.animalpic img {
+  margin: 60px;
+  padding: 40px;
+} */
+.animal2{
+  margin: 40px;
+  padding: 40px;
+  height:50%;
+  width:80%;
+}
+body{
+  background-image: url("picture.jpeg");
+}
+img.dog1{
+  height: 50%;
+  width: 50%;
+}
+h1.headerb{
+  box-shadow: 4px 4px black;
+  background-color: #ad80d4;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width:300%;
+  }
+  to{
+    margin-left:0%;
+    width:100%;
+  }
+}
+h1.okok{
+  background-color: #ad80d4;
+}
+
+img.sadcat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.fatlizard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.cutebird {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
